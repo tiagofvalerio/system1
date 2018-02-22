@@ -15,7 +15,7 @@
   [[["/" {:get home-page}
      ^:interceptors [(body-params/body-params) http/json-body]
 
-     ["/v1/get-tests" ^:interceptors {:get get-all-tests}]]]])
+     ["/v1/test" ^:interceptors {:get get-all-tests}]]]])
 
 (def service {:env :prod
               ::http/routes routes
