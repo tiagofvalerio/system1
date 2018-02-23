@@ -64,8 +64,8 @@
                                 :env {:database-user "postgres"
                                       :database-password "postgres"
                                       :database-name "system1"
-                                      :database-host "postgres"
-                                      :ragtime-db-spec "jdbc:postgresql://postgres:5432/system1?user=postgres&password=postgres"
+                                      :database-host "localhost"
+                                      :ragtime-db-spec "jdbc:postgresql://localhost:5432/system1?user=postgres&password=postgres"
                                       :reload-resources "true"
                                       :kraken-broker-url "amqp://localhost"}}
              :uberjar {:aot [system1.server]
