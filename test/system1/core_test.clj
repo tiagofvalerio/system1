@@ -1,6 +1,5 @@
 (ns system1.core-test
-  (:require [clojure.test :refer :all]
-            [t.core :refer :all]))
+  (:require [clojure.test :refer :all]))
 
 (deftest a-test
   (testing "FIXME, I fail."
